@@ -1,5 +1,12 @@
 # ECE 275 Project Rules
 
+## Writing Style
+- Omit needless words. Every word should tell.
+- No em dashes. Use commas, periods, colons, or parentheses instead.
+- Avoid common AI filler: "notably", "furthermore", "moreover", "it is worth noting", "fundamentally", "counterintuitive", "straightforward", "comprehensive", "crucial", "robust", "paradigm", "landscape", "delve", "harness", "seamlessly", "pivotal".
+- Write in direct, active sentences. State facts plainly.
+- Do not start consecutive sentences with "This" or "These".
+
 ## Code Standards
 - All Python code must be well-commented and include docstrings for every function.
 - Organize Python scripts with clearly separated sections: Problem Data, Formulation, Solve, Results Analysis, and Plotting.
