@@ -1,0 +1,18 @@
+# ECE 275: Energy Market Policy and Modeling
+# Python dependencies for homework assignments
+
+# Core scientific computing
+numpy
+scipy
+
+# Data analysis
+pandas
+
+# Visualization
+matplotlib
+
+# Linear programming / optimization (more expressive than scipy.linprog)
+pulp
+
+# Interactive notebooks for exploratory work
+jupyter

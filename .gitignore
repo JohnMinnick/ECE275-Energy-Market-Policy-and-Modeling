@@ -1,0 +1,58 @@
+# ========================
+# Python
+# ========================
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.ipynb_checkpoints/
+
+# ========================
+# LaTeX Build Artifacts
+# ========================
+*.aux
+*.log
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.out
+*.toc
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+*.lot
+*.lof
+
+# Compiled PDFs (they are build artifacts; regenerate via /compile-latex)
+*.pdf
+# But track assignment PDFs from the instructor
+!**/ece275-*.pdf
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================
+# OS
+# ========================
+Thumbs.db
+.DS_Store
+
+# ========================
+# Environment
+# ========================
+.env
+.env.local

@@ -1,0 +1,105 @@
+\documentclass[journal, onecolumn, 12pt]{IEEEtran}
+
+% ========================
+% Packages
+% ========================
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}       % For nicer tables
+\usepackage{multirow}       % For multi-row cells
+\usepackage{listings}       % For code inclusion
+\usepackage{geometry}
+\usepackage[table]{xcolor}  % For cell coloring
+\usepackage{placeins}       % For \FloatBarrier
+
+% ========================
+% Custom Pastel Colors
+% ========================
+\definecolor{mygreen}{rgb}{0.7, 1, 0.7}   % Light Green (High suitability)
+\definecolor{myyellow}{rgb}{1, 1, 0.7}    % Light Yellow (Medium suitability)
+\definecolor{myred}{rgb}{1, 0.7, 0.7}     % Light Red (Low suitability)
+
+% ========================
+% Page Margins
+% ========================
+\geometry{letterpaper, top=1in, bottom=1in, left=1in, right=1in}
+
+% ========================
+% Code Listing Style
+% ========================
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+% ========================
+% Title Information
+% ========================
+% TODO: Update homework number
+\title{ECE275: Homework \#N}
+\author{John R. Minnick\\
+ECE 275: Electricity Market, Policy, and Modeling \\
+Department of Electrical and Computer Engineering\\
+% TODO: Update date
+Month, 2026\\
+\thanks{\textbf{Disclaimer:} Generative AI was used for the creation of the structure of this document as well as in some of the implementation of the underlying code used for modeling. However all written content and opinions on matters here within are solely those of the author.}
+}
+
+\begin{document}
+
+\maketitle
+
+% ========================
+% Problem Sections
+% ========================
+
+\section{Problem Title}
+
+\subsection{Part A}
+\textit{Prompt: Copy the problem statement here.}\\
+
+% Your analysis here...
+
+\newpage
+
+% ========================
+% Appendix: Python Code
+% ========================
+\section{Appendix: Python Code}
+\begin{lstlisting}[language=Python, caption=Solution Code]
+# Paste your Python code here
+import numpy as np
+
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()
+\end{lstlisting}
+
+\end{document}
